@@ -12,7 +12,7 @@
   width: 100vw;
 }
 
-.navbar button {
+.navbar-button {
   font-size: 12px;
   display: center;
   background-color: transparent;
@@ -508,7 +508,19 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 @media only screen and (max-width: 768px) {
-  .navbar button {
+  .navbar-button {
     display: none;
+  }
+
+  .navbar {
+    justify-content: space-between;
+    padding: 0px 20px;
+  }
+  .grid {
+    width: 100%;
+    aspect-ratio: 2.9;
+  }
+  .grid-item {
+    height: 100%;
   }
 }
